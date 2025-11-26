@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты - Туры по Владимирской области</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <h1>Владимирский край</h1>
+            <p>Туры и экскурсии по древним городам</p>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="courses.html">Туры</a></li>
+              <li><a href="about.html">О нас</a></li>
+              <li><a href="contacts.html" class="active">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Свяжитесь с нами</h2>
+        <p>
+          Мы всегда рады помочь вам с выбором тура и ответить на все вопросы
+        </p>
+        <a href="#contact-content" class="btn">Написать нам</a>
+      </div>
+    </section>
+
+    <!-- Секция контактов -->
+    <section id="contact-content" class="questions-section">
+      <div class="container">
+        <h2>Наши контакты</h2>
+        <p class="section-subtitle">
+          Свяжитесь с нами удобным для вас способом
+        </p>
+
+        <div class="questions-content">
+          <div class="contact-info">
+            <h3>Контактная информация</h3>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <p>Телефон</p>
+                <span>+7 (903) 830-76-23</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <p>Email</p>
+                <span>info@vladimir-travel.ru</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <p>Адрес офиса</p>
+                <span>г. Владимир, ул. Большая Московская, 12</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <p>Режим работы</p>
+                <span>Пн-Пт: 9:00-18:00<br />Сб-Вс: 10:00-16:00</span>
+              </div>
+            </div>
+
+            <div class="office-map">
+              <h4>Как добраться</h4>
+              <p>
+                Наш офис находится в историческом центре Владимира, рядом с
+                Золотыми воротами. Ближайшая остановка общественного транспорта
+                - "Спасская улица".
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h3>Напишите нам</h3>
+            <form id="question-form">
+              <div class="form-group">
+                <input type="text" placeholder="Ваше имя" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Ваш email" required />
+              </div>
+              <div class="form-group">
+                <input type="tel" placeholder="Ваш телефон" />
+              </div>
+              <div class="form-group">
+                <select>
+                  <option value="">Выберите тему обращения</option>
+                  <option value="tour">Выбор тура</option>
+                  <option value="booking">Бронирование</option>
+                  <option value="question">Вопрос по туру</option>
+                  <option value="other">Другое</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <textarea
+                  placeholder="Ваше сообщение"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Отправить сообщение</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Дополнительная контактная информация -->
+    <section class="additional-contacts">
+      <div class="container">
+        <h2>Другие способы связи</h2>
+        <div class="contact-methods">
+          <div class="contact-method">
+            <i class="fab fa-vk"></i>
+            <h3>ВКонтакте</h3>
+            <p>Следите за новостями и задавайте вопросы в нашей группе</p>
+            <a href="https://vk.com/bunfik" target="_blank" class="btn"
+              >Перейти</a
+            >
+          </div>
+          <div class="contact-method">
+            <i class="fab fa-telegram"></i>
+            <h3>Telegram</h3>
+            <p>Быстрая связь через мессенджер для оперативных вопросов</p>
+            <a
+              href="https://t.me/pvov33?utm_source=telno.ru"
+              target="_blank"
+              class="btn"
+              >Написать</a
+            >
+          </div>
+          <div class="contact-method">
+            <i class="fab fa-whatsapp"></i>
+            <h3>WhatsApp</h3>
+            <p>Свяжитесь с нами через WhatsApp для быстрого ответа</p>
+            <a href="https://wa.me/79038307623" target="_blank" class="btn"
+              >Написать</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Владимирский край</h3>
+            <p>
+              Откройте для себя древние города России с нами. Мы предлагаем
+              уникальные туры по Золотому кольцу.
+            </p>
+            <div class="social-links">
+              <a href="https://vk.com/bunfik" target="_blank"
+                ><i class="fab fa-vk"></i
+              ></a>
+              <a href="https://t.me/pvov33?utm_source=telno.ru" target="_blank"
+                ><i class="fab fa-telegram"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/watch?v=1zu8VCaIfb8"
+                target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Наши туры</h3>
+            <ul>
+              <li>
+                <a href="courses.html#tours">Классическое Золотое кольцо</a>
+              </li>
+              <li><a href="courses.html#tours">Суздаль - город-музей</a></li>
+              <li>
+                <a href="courses.html#tours">Владимир - древняя столица</a>
+              </li>
+              <li><a href="courses.html#tours">Муром - город богатырей</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Контакты</h3>
+            <ul class="contact-info">
+              <li><i class="fas fa-phone"></i> +7 (903) 830-76-23</li>
+              <li><i class="fas fa-envelope"></i> info@vladimir-travel.ru</li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> г. Владимир, ул. Большая
+                Московская, 12
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Подписка на новости</h3>
+            <p>Узнавайте первыми о новых турах и акциях</p>
+            <form class="subscribe-form">
+              <input type="email" placeholder="Ваш email" />
+              <button type="submit" class="btn">Подписаться</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2023 Путешествия по Владимирской области. Все права защищены.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

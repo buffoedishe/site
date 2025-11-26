@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Путешествия по Владимирской области</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <h1>Владимирский край</h1>
+            <p>Открой для себя древние города России</p>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html" class="active">Главная</a></li>
+              <li><a href="courses.html">Туры</a></li>
+              <li><a href="about.html">О нас</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Главный баннер -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>Путешествие по Золотому кольцу России</h2>
+        <p>
+          Откройте для себя древние города Владимирской области с богатой
+          историей и уникальной архитектурой
+        </p>
+        <a href="#cities" class="btn">Исследовать города</a>
+      </div>
+    </section>
+
+    <!-- Секция с городами -->
+    <section id="cities" class="cities-section">
+      <div class="container">
+        <h2>Города Владимирской области</h2>
+        <p class="section-subtitle">
+          Выберите город, чтобы узнать больше о его достопримечательностях
+        </p>
+
+        <div class="cities-grid">
+          <!-- Карточка Владимира -->
+          <div class="city-card" data-city="vladimir">
+            <div class="city-image">
+              <img src="pic/vl.jpg" alt="Владимир" />
+            </div>
+            <div class="city-info">
+              <h3>Владимир</h3>
+              <p>
+                Древняя столица Северо-Восточной Руси с богатым историческим
+                наследием.
+              </p>
+              <a href="vladimir.html" class="city-btn">Подробнее</a>
+            </div>
+          </div>
+
+          <!-- Карточка Суздаля -->
+          <div class="city-card" data-city="suzdal">
+            <div class="city-image">
+              <img src="pic/su.jpg" alt="Суздаль" />
+            </div>
+            <div class="city-info">
+              <h3>Суздаль</h3>
+              <p>
+                Город-музей под открытым небом с уникальными памятниками
+                архитектуры.
+              </p>
+              <a href="suzdal.html" class="city-btn">Подробнее</a>
+            </div>
+          </div>
+
+          <!-- Карточка Мурома -->
+          <div class="city-card" data-city="murom">
+            <div class="city-image">
+              <img src="pic/mu.jpg" alt="Муром" />
+            </div>
+            <div class="city-info">
+              <h3>Муром</h3>
+              <p>
+                Один из древнейших городов России, родина былинного богатыря
+                Ильи Муромца.
+              </p>
+              <a href="murom.html" class="city-btn">Подробнее</a>
+            </div>
+          </div>
+
+          <!-- Карточка Александрова -->
+          <div class="city-card" data-city="aleksandrov">
+            <div class="city-image">
+              <img src="pic/al.jpg" alt="Александров" />
+            </div>
+            <div class="city-info">
+              <h3>Александров</h3>
+              <p>
+                Известен Александровской слободой - резиденцией Ивана Грозного.
+              </p>
+              <a href="aleksandrov.html" class="city-btn">Подробнее</a>
+            </div>
+          </div>
+
+          <!-- Карточка Гусь-Хрустального -->
+          <div class="city-card" data-city="gus-hrustalny">
+            <div class="city-image">
+              <img src="pic/gx.jpg" alt="Гусь-Хрустальный" />
+            </div>
+            <div class="city-info">
+              <h3>Гусь-Хрустальный</h3>
+              <p>
+                Центр стекольной промышленности России с уникальным музеем
+                хрусталя.
+              </p>
+              <a href="gus-hrustalny.html" class="city-btn">Подробнее</a>
+            </div>
+          </div>
+
+          <!-- Карточка Юрьев-Польского -->
+          <div class="city-card" data-city="yuriev-polsky">
+            <div class="city-image">
+              <img src="pic/up.jpg" alt="Юрьев-Польский" />
+            </div>
+            <div class="city-info">
+              <h3>Юрьев-Польский</h3>
+              <p>
+                Город с уникальным Георгиевским собором, украшенным белокаменной
+                резьбой.
+              </p>
+              <a href="yuriev-polsky.html" class="city-btn">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer id="contacts">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Владимирский край</h3>
+            <p>
+              Откройте для себя древние города России с нами. Мы предлагаем
+              уникальные туры по Золотому кольцу.
+            </p>
+            <div class="social-links">
+              <a href="https://vk.com/bunfik" target="_blank"
+                ><i class="fab fa-vk"></i
+              ></a>
+              <a href="https://t.me/pvov33?utm_source=telno.ru" target="_blank"
+                ><i class="fab fa-telegram"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/watch?v=1zu8VCaIfb8"
+                target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Наши туры</h3>
+            <ul>
+              <li>
+                <a href="courses.html#tours">Классическое Золотое кольцо</a>
+              </li>
+              <li><a href="courses.html#tours">Суздаль - город-музей</a></li>
+              <li>
+                <a href="courses.html#tours">Владимир - древняя столица</a>
+              </li>
+              <li><a href="courses.html#tours">Муром - город богатырей</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Контакты</h3>
+            <ul class="contact-info">
+              <li><i class="fas fa-phone"></i> +7 (903) 830-76-23</li>
+              <li><i class="fas fa-envelope"></i> info@vladimir-travel.ru</li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> г. Владимир, ул. Большая
+                Московская, 12
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Подписка на новости</h3>
+            <p>Узнавайте первыми о новых турах и акциях</p>
+            <form class="subscribe-form">
+              <input type="email" placeholder="Ваш email" />
+              <button type="submit" class="btn">Подписаться</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2023 Путешествия по Владимирской области. Все права защищены.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
